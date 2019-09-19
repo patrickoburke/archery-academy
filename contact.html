@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Straight to the Point Archery: Contact</title>
+    <script src="https://kit.fontawesome.com/c0c226e604.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+    <style>
+      hr {
+        margin-bottom: 1rem;
+      }
+
+      button, input, textarea {
+        font-family: inherit;
+        display: block;
+        box-sizing: border-box;
+        font-size: 100%;
+        border-radius: 5px;
+        margin-left: 0;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+      }
+
+      input {
+        width: 300px;
+      }
+
+      textarea {
+        border: 1px solid #444;
+      }
+
+      input[type=text]:focus {
+        border-color: #03a3df;
+        outline: none;
+      }
+
+      input[type=email]:focus {
+        border-color: #03a3df;
+        outline: none;
+      }
+
+      input[type=submit] {
+        background-color: #1b447f;
+        color: white;
+        width: 100px;
+      }
+
+      input[type=submit]:focus {
+        border-color: #ecb722;
+        color: #ecb722;
+        outline: none;
+      }
+
+      input[type=submit]:hover {
+        border-color: #ecb722;
+        color: #ecb722;
+        outline: none;
+      }
+
+      label {
+        font-weight: bold;
+      }
+
+      textarea:focus {
+        border-color: #03a3df;
+        outline: none;
+      }
+
+      fieldset {
+        border: none;
+        margin-left: 0;
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+        padding-left: 0;
+      }
+
+      fieldset legend {
+        padding-left: 0;
+        margin-left: 0;
+        font-weight: bold;
+      }
+
+      fieldset input {
+        display: inline;
+        width: 100px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <h3 class="header-call">Call Us: (253) 555-1010</h3>
+      <a class="header-logo" href="index.html"><img src="images/archeryAcademy-logo-white.png" alt="Archery Academy logo and home link"></a>
+      <div class="header-container">
+          <a class="header-box" href="services.html">Services</a>
+          <a class="header-box" href="instructors.html">Instructors</a>
+          <a class="header-box" href="contact.html">Contact Us</a>
+      </div>
+    </header>
+      <section>
+        <div class="main-container">
+          <p>Straight to the Point Archery’s staff has decades of experience in the archery industry. We are committed to educating you about anything archery and our Academy.</p>
+          <p>Send us a message using the form below, and we'll be happy to provide any information or answer any questions you may have.</p>
+          <h1>Contact Us</h1>
+          <hr>
+          <form method="GET">
+            <label>First Name:
+              <input type="text" name="contactFirstName">
+            </label>
+            <label>Last Name:
+              <input type="text" name="contactLastName">
+            </label>
+            <label>Phone Number:
+              <input type="text" name="contactPhone">
+            </label>
+            <label>Email:
+              <input type="email" name="contactEmail">
+            </label>
+            <fieldset>
+              <legend>Specific info you are inquiring about?</legend>
+              <label>Equipment
+                <input type="checkbox" name="contactQuestion" value="equipment">
+              </label>
+              <label>Hours
+                <input type="checkbox" name="contactQuestion" value="hours">
+              </label>
+              <label>Become an Instructor
+                <input type="checkbox" name="contactQuestion" value="becomeInstructor">
+              </label>
+              <label>Events
+                <input type="checkbox" name="contactQuestion" value="events">
+              </label>
+            </fieldset>
+            <label>Additional Comments:
+              <textarea name="contactComments" rows="10" cols="100"></textarea>
+            </label>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+      </section>
+      <footer>
+        <div class="footer-container">
+          <p class="footer-box">
+            <a href="index.html"><img src="images/archeryAcademy-logo-white-40percent.png" alt="Straight to the Point Archery logo"></a><br>
+            Straight to the Point Archery<br>
+            528 Nock Point Ln<br>
+            Tacoma, WA 98412
+          </p>
+          <p class="footer-box-mid"><i class="fas fa-phone"></i>&nbsp;&nbsp;(253) 555-1010<br>
+            <a href="mailto:archery-education@example.com?subject=Info"><i class="fas fa-envelope"></i>&nbsp;&nbsp;archery-education@example.com</a><br>
+          </p>
+          <p class="footer-box-right">Connect
+            <a href="#"><i class="fab fa-twitter social"></i></a>
+            <a href="#"><i class="fab fa-facebook-f social"></i></a>
+            <a href="#"><i class="fab fa-instagram social"></i></a><br>
+            &copy; 2019 Archery Academy<br>
+            <a href="#">Privacy Policy</a>
+          </p>
+        </div>
+      </footer>
+  </body>
+</html>
